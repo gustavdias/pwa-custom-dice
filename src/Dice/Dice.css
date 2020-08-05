@@ -1,0 +1,25 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    font-size: 8em;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+  }
+  
+  button {
+    font-size: 3em;
+    border-radius: 10px;
+  }
+  
