@@ -28,7 +28,7 @@ function Dice() {
 
   return (
     <div className="App">
-      <div class="num">{num}</div>
+      <div className="num">{num}</div>
       <button onClick={roll}>Roll</button>
       <p>click to roll again</p>
     </div>

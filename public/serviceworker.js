@@ -18,7 +18,7 @@ self.addEventListener("fetch", (event) => {
   event.respondWith(
     caches.match(event.request).then(() => {
       return fetch(event.request) //you want to get new data
-        .catch(() => caches.match("offline.html")); //if the app can't get new data/it is offline, you return the offline.html
+        .catch(() => caches.match("index.html")); //if the app can't get new data/it is offline, you return the offline.html
     })
   );
 });
